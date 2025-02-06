@@ -1,0 +1,462 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A novel about the American dream and the roaring twenties."
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian novel set in a totalitarian society under constant surveillance."
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A novel about racial injustice in the Deep South."
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "description": "A romantic novel that also critiques the British landed gentry at the end of the 18th century."
+  },
+  {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "description": "A novel about the voyage of the whaling ship Pequod."
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "description": "A novel that chronicles the French invasion of Russia and the impact of the Napoleonic era."
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "description": "A novel about the experiences of a young man in New York City."
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "description": "A fantasy novel about the adventures of Bilbo Baggins."
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "description": "A dystopian novel about a future society where books are banned and burned."
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "description": "A novel about the experiences of the titular character, including her growth to adulthood and her love for Mr. Rochester."
+  },
+  {
+    "title": "Show Your Work",
+    "author": "Austin Kleon",
+    "description": "A guide about sharing creative work and building an audience authentically. The book argues that by documenting your process and sharing your influences, you can attract opportunities without traditional networking. It presents practical strategies for artists and creators to make their work discoverable while maintaining artistic integrity."
+  },
+  {
+    "title": "Getting Real",
+    "author": "Jason Fried",
+    "description": "A practical guide to building web applications, focusing on simplicity and customer value. The book challenges conventional software development wisdom, advocating for smaller teams, less features, and rapid development cycles. It shares insights from Basecamp's development philosophy and success."
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "description": "A comprehensive guide to building good habits and breaking bad ones. The book introduces the concept of atomic habits - tiny changes that lead to remarkable results. It presents a practical framework for understanding how habits work and how to transform them using the four laws of behavior change."
+  },
+  {
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "description": "An investigation into the value and practice of focused, undistracted work. The book argues that the ability to concentrate without distraction is becoming increasingly rare and valuable in our economy. It provides concrete strategies for developing deep work habits and managing attention in a distracted world."
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt and David Thomas",
+    "description": "A comprehensive guide to software development that goes beyond specific technologies to focus on best practices and professional development. The book covers topics from personal responsibility and career development to practical matters of coding and testing, emphasizing pragmatic thinking and adaptability."
+  },
+  {
+    "title": "Thinking in Systems",
+    "author": "Donella H. Meadows",
+    "description": "An accessible introduction to systems thinking, showing how interconnected elements influence each other in predictable ways. The book provides tools for understanding complex systems in business, society, and nature, helping readers see the patterns that control system behavior."
+  },
+  {
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "description": "A foundational text on human-centered design, examining why some products satisfy users while others frustrate them. The book introduces key concepts in design thinking and cognitive psychology, using everyday objects to illustrate principles of good design."
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "description": "An exploration of the two systems that drive the way we think: the fast, intuitive, and emotional system; and the slower, more deliberative, and logical system. The book reveals cognitive biases and heuristics that influence decision-making, drawing on decades of groundbreaking research."
+  },
+  {
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "description": "An examination of how people think about money, exploring the strange ways people process decisions about wealth. Through 19 short stories, the book illustrates how personal history, worldview, and unique experiences shape financial decisions more than mathematical calculations."
+  },
+  {
+    "title": "A Philosophy of Software Design",
+    "author": "John Ousterhout",
+    "description": "A deep dive into software complexity and how to manage it through better design. The book presents a coherent philosophy for designing software systems, focusing on reducing complexity through strategic thinking and proper abstraction."
+  },
+  {
+    "title": "Range",
+    "author": "David Epstein",
+    "description": "A compelling argument against early specialization, showing how generalists often find greater success. The book examines how in most fields—especially complex and unpredictable ones—generalists triumph over specialists. It demonstrates how diverse experiences and interdisciplinary thinking lead to greater innovation and adaptability."
+  },
+  {
+    "title": "The Almanack of Naval Ravikant",
+    "author": "Eric Jorgenson",
+    "description": "A collection of wisdom and experience from Naval Ravikant on wealth, happiness, and life philosophy. The book distills years of Naval's thoughts and tweets into a comprehensive guide about building wealth while maintaining peace of mind, understanding happiness, and developing good judgment."
+  },
+  {
+    "title": "Digital Minimalism",
+    "author": "Cal Newport",
+    "description": "A philosophical approach to technology use in the modern world. The book presents a thoughtful method to decide which digital tools add value to your life, offering concrete ways to cultivate a more focused, deliberate relationship with technology while reclaiming time for meaningful activities."
+  },
+  {
+    "title": "Anything You Want",
+    "author": "Derek Sivers",
+    "description": "A concise and unconventional guide to running a business, based on lessons from CD Baby's founder. The book challenges traditional business wisdom, emphasizing happiness over growth and showing how to build a sustainable business that serves your life goals rather than consuming them."
+  },
+  {
+    "title": "The Coding Career Handbook",
+    "author": "Shawn Wang",
+    "description": "A comprehensive guide for developers transitioning from early career to senior roles. The book covers learning in public, personal branding, technical writing, and career development, offering practical strategies for accelerating career growth in software development."
+  },
+  {
+    "title": "Working in Public",
+    "author": "Nadia Eghbal",
+    "description": "An analysis of modern open source software development and its evolution. The book examines how open source communities function, the challenges of maintaining popular projects, and the changing dynamics of online collaboration and digital infrastructure."
+  },
+  {
+    "title": "Shape Up",
+    "author": "Ryan Singer",
+    "description": "Basecamp's opinionated approach to product development and project management. The book outlines a six-week cycle methodology for building software, emphasizing shaped work, bounded time, and making hard choices up front to enable focused execution."
+  },
+  {
+    "title": "The Mom Test",
+    "author": "Rob Fitzpatrick",
+    "description": "A practical guide to conducting better customer conversations and validation interviews. The book shows how to talk to customers and learn if your business is a good idea when everyone is lying to you, offering concrete techniques for getting honest feedback about business ideas."
+  },
+  {
+    "title": "Refactoring UI",
+    "author": "Adam Wathan and Steve Schoger",
+    "description": "A comprehensive guide to designing better user interfaces, even without formal design training. The book provides practical tips and systematic approaches to UI design, covering color, typography, spacing, and visual hierarchy through real-world examples and transformations."
+  },
+  {
+    "title": "The Passionate Programmer",
+    "author": "Chad Fowler",
+    "description": "A guide to building a remarkable career in software development. The book offers concrete examples and actionable advice for taking charge of your career, staying relevant in the industry, and turning your coding career into something you're passionate about."
+  },
+  {
+    "title": "Good Strategy Bad Strategy",
+    "author": "Richard Rumelt",
+    "description": "A clear-eyed analysis of what makes the difference between effective and ineffective strategy. The book debunks common misconceptions about strategy, providing a framework for developing coherent strategies that actually address challenges through diagnosis, guiding policy, and coherent action."
+  },
+  {
+    "title": "The Personal MBA",
+    "author": "Josh Kaufman",
+    "description": "A comprehensive overview of fundamental business concepts without the expense of an MBA. The book distills the essentials of business education into a single volume, covering value creation, marketing, sales, finance, and the human side of business."
+  },
+  {
+    "title": "Mindstorms",
+    "author": "Seymour Papert",
+    "description": "A groundbreaking exploration of how computers can fundamentally change how we learn and think. The book introduces the concept of constructionism, arguing that children can learn deep mathematical and scientific concepts through programming and creative exploration, using computers as 'objects to think with.'"
+  },
+  {
+    "title": "The Timeless Way of Building",
+    "author": "Christopher Alexander",
+    "description": "A fundamental theory of architecture and design that has influenced fields far beyond building design. The book introduces pattern languages as a way to capture and share design wisdom, showing how timeless patterns emerge from solving real problems in context."
+  },
+  {
+    "title": "How Buildings Learn",
+    "author": "Stewart Brand",
+    "description": "An investigation into how buildings adapt over time to changing needs and circumstances. The book examines how successful buildings grow and adapt, while unsuccessful ones stagnate, providing insights applicable to any complex system design, including software architecture."
+  },
+  {
+    "title": "The Making of Prince of Persia",
+    "author": "Jordan Mechner",
+    "description": "A personal journal chronicling the creation of a classic video game. Through diary entries, the book provides an intimate look at game development in the late 1980s, capturing both the technical challenges and emotional journey of creative work."
+  },
+  {
+    "title": "Draft No. 4",
+    "author": "John McPhee",
+    "description": "A master class in the writer's craft, focusing on the art of creative nonfiction. The book shares insights into the writing process, from structure and revision to dealing with writer's block, drawn from McPhee's decades of experience as a writer for The New Yorker."
+  },
+  {
+    "title": "Understanding Comics",
+    "author": "Scott McCloud",
+    "description": "A deep analysis of the comics medium, itself written in comic form. The book explores visual communication, symbolism, and storytelling, offering insights valuable to anyone working in visual design, user experience, or communication."
+  },
+  {
+    "title": "The Visual Display of Quantitative Information",
+    "author": "Edward Tufte",
+    "description": "A seminal work on data visualization and information design. The book sets forth principles for displaying data effectively and elegantly, showing how to communicate complex information clearly while avoiding distortion and decoration."
+  },
+  {
+    "title": "Hackers and Painters",
+    "author": "Paul Graham",
+    "description": "A collection of essays exploring the nature of programming, startups, and innovation. The book argues that programming is more similar to creative pursuits than traditional engineering, offering insights into both the technical and philosophical aspects of software creation."
+  },
+  {
+    "title": "The Art of Learning",
+    "author": "Josh Waitzkin",
+    "description": "An exploration of the learning process by a chess prodigy turned martial arts champion. The book breaks down the principles of high-performance learning and skill acquisition, showing how to apply these principles to any field."
+  },
+  {
+    "title": "Zen and the Art of Motorcycle Maintenance",
+    "author": "Robert M. Pirsig",
+    "description": "A philosophical novel exploring the relationship between technical and artistic approaches to life. Through the metaphor of motorcycle maintenance, the book examines questions of quality, technology, and how we relate to the world around us."
+  },
+  {
+    "title": "The War of Art",
+    "author": "Steven Pressfield",
+    "description": "A guide to overcoming creative blocks and resistance. The book identifies the enemy of creativity—which Pressfield calls Resistance—and provides strategies for pushing through it to do your best creative work."
+  },
+  {
+    "title": "Gödel, Escher, Bach",
+    "author": "Douglas Hofstadter",
+    "description": "An exploration of consciousness, intelligence, and pattern recognition through the lens of mathematics, art, and music. The book weaves together themes from cognitive science, computer programming, and formal systems to examine the nature of human thought and artificial intelligence."
+  },
+  {
+    "title": "The Mythical Man-Month",
+    "author": "Frederick P. Brooks Jr.",
+    "description": "A classic text on software project management and team dynamics. The book presents Brooks's Law and other insights about why adding more programmers to a late project makes it later, along with timeless observations about software development."
+  },
+  {
+    "title": "Creativity, Inc.",
+    "author": "Ed Catmull",
+    "description": "An inside look at Pixar's creative process and organizational culture. The book shares principles for managing creative organizations and nurturing a culture where new ideas can flourish, drawn from Pixar's journey to becoming a leading animation studio."
+  },
+  {
+    "title": "The Innovator's Dilemma",
+    "author": "Clayton M. Christensen",
+    "description": "A groundbreaking analysis of why great companies fail when faced with disruptive innovation. The book explains how successful companies can do everything right and still lose market leadership when confronted with disruptive technological change."
+  },
+  {
+    "title": "The Art of Possibility",
+    "author": "Rosamund Stone Zander and Benjamin Zander",
+    "description": "A transformative approach to life and leadership through the lens of music and creativity. The book presents practices for creating possibility in any situation, showing how to move beyond limiting assumptions and create new frameworks for success and fulfillment."
+  },
+  {
+    "title": "Finite and Infinite Games",
+    "author": "James P. Carse",
+    "description": "A philosophical exploration of how we engage with life, work, and play. The book distinguishes between finite games played to win and infinite games played to continue playing, offering profound insights into human motivation and interaction."
+  },
+  {
+    "title": "The Effective Engineer",
+    "author": "Edmond Lau",
+    "description": "A practical guide to becoming more effective at software engineering. The book focuses on high-leverage activities that create disproportionate impact, covering technical decision-making, time management, and career development in software engineering."
+  },
+  {
+    "title": "Just Enough Research",
+    "author": "Erika Hall",
+    "description": "A practical guide to conducting effective user research in design projects. The book provides frameworks for asking better questions and gathering meaningful insights, helping readers make informed decisions about products and services."
+  },
+  {
+    "title": "Staff Engineer",
+    "author": "Will Larson",
+    "description": "An in-depth exploration of senior technical leadership roles in software companies. The book examines the various paths to and archetypes of Staff engineering, providing concrete guidance for engineers looking to grow their impact beyond traditional engineering roles."
+  },
+  {
+    "title": "The Goal",
+    "author": "Eliyahu M. Goldratt",
+    "description": "A business novel that introduces the Theory of Constraints through a compelling story. The book follows a plant manager's journey to improve his factory's performance, revealing universal principles about identifying and addressing bottlenecks in any process."
+  },
+  {
+    "title": "Thinking in Bets",
+    "author": "Annie Duke",
+    "description": "A framework for making better decisions under uncertainty, drawn from poker strategy. The book shows how to evaluate decisions based on the quality of our decision-making process rather than results, helping readers navigate uncertainty and avoid common decision-making pitfalls."
+  },
+  {
+    "title": "The Score Takes Care of Itself",
+    "author": "Bill Walsh",
+    "description": "Leadership lessons from legendary NFL coach Bill Walsh. The book outlines his 'Standard of Performance' philosophy, showing how attention to detail and focus on process over outcomes builds successful organizations and lasting excellence."
+  },
+  {
+    "title": "Metaphors We Live By",
+    "author": "George Lakoff and Mark Johnson",
+    "description": "An exploration of how metaphors shape our thinking and understanding of the world. The book reveals how metaphorical thinking influences everything from everyday language to abstract concepts, with implications for design, communication, and problem-solving."
+  },
+  {
+    "title": "The Pleasure of Finding Things Out",
+    "author": "Richard P. Feynman",
+    "description": "A collection of short works showcasing Feynman's curiosity and approach to understanding the world. The book demonstrates the joy of scientific discovery and the importance of maintaining wonder while pursuing rigorous understanding."
+  },
+  {
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "description": "A comprehensive guide to designing large-scale data systems. The book explores the principles behind reliable, scalable, and maintainable applications, covering distributed systems, consistency models, and the evolution of data-intensive technologies."
+  },
+  {
+    "title": "The Power of Habit",
+    "author": "Charles Duhigg",
+    "description": "An examination of how habits work and can be changed. The book explores the science of habit formation in individuals, organizations, and societies, providing a framework for understanding and transforming habitual behaviors."
+  },
+  {
+    "title": "Bird by Bird",
+    "author": "Anne Lamott",
+    "description": "A guide to writing and life, focusing on the creative process and overcoming obstacles. The book offers practical advice for writers while addressing universal challenges of creative work, including perfectionism, self-doubt, and finding one's voice."
+  },
+  {
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "description": "A systematic approach to creating and managing successful startups. The book introduces the concept of validated learning and the build-measure-learn feedback loop, showing how to make startups more efficient and less risky through scientific experimentation."
+  },
+  {
+    "title": "Mindset",
+    "author": "Carol S. Dweck",
+    "description": "An exploration of how our beliefs about ability and intelligence affect learning and achievement. The book contrasts fixed and growth mindsets, showing how believing in the ability to change and grow leads to greater success and resilience."
+  },
+  {
+    "title": "Coders at Work",
+    "author": "Peter Seibel",
+    "description": "A collection of in-depth interviews with fifteen notable programmers and computer scientists. The book explores their approaches to programming, problem-solving, and software design, offering insights into how great programmers think about their craft and career development."
+  },
+  {
+    "title": "The Master and His Emissary",
+    "author": "Iain McGilchrist",
+    "description": "An exploration of the divided brain and its influence on Western culture. The book examines how the brain's hemispheres differently shape our understanding of the world, arguing that modern society has become increasingly dominated by left-hemisphere thinking."
+  },
+  {
+    "title": "Impro",
+    "author": "Keith Johnstone",
+    "description": "A fundamental work on improvisation, creativity, and spontaneity. Though written about theater, the book's insights about status, creativity, and breaking mental blocks apply broadly to innovation, collaboration, and personal development."
+  },
+  {
+    "title": "The Art of Game Design",
+    "author": "Jesse Schell",
+    "description": "A comprehensive guide to game design principles through the lens of 'lenses' - different ways of looking at design problems. The book provides frameworks for thinking about player experience, engagement, and the integration of various game elements."
+  },
+  {
+    "title": "Seeing Like a State",
+    "author": "James C. Scott",
+    "description": "An analysis of why large-scale government projects to improve the human condition have failed. The book explores how simplified, administrative views of complex systems can lead to disaster, with lessons relevant to any large-scale planning or design effort."
+  },
+  {
+    "title": "The Nature of Order",
+    "author": "Christopher Alexander",
+    "description": "A four-volume exploration of the art of building and the nature of the universe. The book presents a theory of living structure and discusses how natural patterns inform successful design in architecture, software, and other fields."
+  },
+  {
+    "title": "Tempo",
+    "author": "Venkatesh Rao",
+    "description": "An examination of decision-making through the lens of tempo - the pattern and rhythm of events. The book explores how understanding and manipulating time patterns can lead to better strategic thinking and decision-making in complex situations."
+  },
+  {
+    "title": "The Sciences of the Artificial",
+    "author": "Herbert A. Simon",
+    "description": "A foundational text about the science of design and artificial systems. The book explores how we can understand and create artificial things, from organizations to computers, with insights relevant to anyone involved in design or engineering."
+  },
+  {
+    "title": "Lateral Thinking",
+    "author": "Edward de Bono",
+    "description": "An introduction to systematic methods for creative thinking. The book presents techniques for breaking out of established patterns of thinking to generate new ideas and solve problems from unexpected angles."
+  },
+  {
+    "title": "The Dream Machine",
+    "author": "M. Mitchell Waldrop",
+    "description": "A comprehensive history of computing focused on J.C.R. Licklider's vision and influence. The book traces the development of personal computing and interactive computing, showing how early visions shaped modern technology."
+  },
+  {
+    "title": "Skin in the Game",
+    "author": "Nassim Nicholas Taleb",
+    "description": "An examination of asymmetry in risk-taking and decision-making. The book argues for the importance of having stake in outcomes, showing how skin in the game creates better alignment of incentives and more robust systems."
+  },
+  {
+    "title": "The Timeless Way of Building",
+    "author": "Christopher Alexander",
+    "description": "A fundamental theory of architecture and design that has influenced fields far beyond building. The book introduces the concept of patterns and quality without a name, showing how to create spaces and systems that have genuine life and beauty."
+  },
+  {
+    "title": "Superintelligence",
+    "author": "Nick Bostrom",
+    "description": "A rigorous analysis of the potential future of artificial intelligence and its implications. The book examines various scenarios for the development of superintelligent AI, considering both the opportunities and risks it presents to humanity."
+  },
+  {
+    "title": "The Psychology of Computer Programming",
+    "author": "Gerald M. Weinberg",
+    "description": "An examination of programming as a human activity. The book explores the social and psychological aspects of software development, considering how programmers think, work together, and deal with complexity."
+  },
+  {
+    "title": "Mastering the Core Teachings of the Buddha",
+    "author": "Daniel Ingram",
+    "description": "A practical and direct guide to meditation and Buddhist practice. The book provides detailed instructions for developing concentration and insight, with a focus on measurable progress and verifiable results."
+  },
+  {
+    "title": "The Mind Illuminated",
+    "author": "Culadasa (John Yates)",
+    "description": "A comprehensive guide to meditation that combines traditional Buddhist wisdom with neuroscience. The book provides a detailed, stage-by-stage approach to developing powerful attention skills and insight, with clear explanations of the underlying cognitive processes."
+  },
+  {
+    "title": "Designing Your Life",
+    "author": "Bill Burnett and Dave Evans",
+    "description": "An application of design thinking principles to career and life planning. The book offers practical exercises and frameworks for prototyping different life paths, reframing stuck situations, and building a well-lived, joyful life."
+  },
+  {
+    "title": "The Idea Factory",
+    "author": "Jon Gertner",
+    "description": "A history of Bell Labs and its role in shaping modern technology. The book examines how this extraordinary institution fostered innovation, showing how organizational structure and culture can promote breakthrough discoveries."
+  },
+  {
+    "title": "Principles",
+    "author": "Ray Dalio",
+    "description": "A comprehensive framework for decision-making in life and business. The book shares principles developed over forty years at Bridgewater Associates, showing how to create systematic approaches to learning from mistakes and making better decisions."
+  },
+  {
+    "title": "The Design Way",
+    "author": "Harold G. Nelson and Erik Stolterman",
+    "description": "An exploration of design as a unique way of thinking and acting. The book presents design as its own tradition of inquiry and action, distinct from both the arts and sciences, with implications for how we approach complex problems."
+  },
+  {
+    "title": "Reinventing Organizations",
+    "author": "Frederic Laloux",
+    "description": "A study of how organizations evolve and can be structured for greater purpose and self-management. The book examines 'teal organizations' that operate with minimal hierarchy, showing how they enable more fulfilling and effective ways of working."
+  },
+  {
+    "title": "Radical Candor",
+    "author": "Kim Scott",
+    "description": "A framework for effective leadership communication and feedback. The book shows how to build strong relationships while maintaining high standards, balancing direct criticism with personal care and support."
+  },
+  {
+    "title": "Team Topologies",
+    "author": "Matthew Skelton and Manuel Pais",
+    "description": "A practical guide to organizing business and technology teams for fast flow. The book presents patterns for team structures and interaction modes that optimize software delivery and organizational effectiveness."
+  },
+  {
+    "title": "The Sovereign Individual",
+    "author": "James Dale Davidson and Lord William Rees-Mogg",
+    "description": "An analysis of how digital technology will transform society and economics. The book predicts how the rise of digital technology will reshape the relationship between individuals and traditional institutions."
+  },
+  {
+    "title": "Competing Against Luck",
+    "author": "Clayton M. Christensen",
+    "description": "An introduction to Jobs Theory in innovation and product development. The book explains how understanding the 'job' customers hire products to do leads to better innovation and customer solutions."
+  },
+  {
+    "title": "The Secrets of Consulting",
+    "author": "Gerald M. Weinberg",
+    "description": "A guide to the art and craft of consulting, filled with practical wisdom. The book shares laws and principles for effective consulting, applicable to anyone who gives advice or helps organizations change."
+  },
+  {
+    "title": "Punished by Rewards",
+    "author": "Alfie Kohn",
+    "description": "A critique of reward systems and their impact on motivation. The book examines how rewards and punishment affect behavior, arguing that they often undermine intrinsic motivation and genuine interest."
+  },
+  {
+    "title": "The Reflective Practitioner",
+    "author": "Donald A. Schön",
+    "description": "An examination of how professionals think in action. The book introduces the concept of reflection-in-action, showing how skilled practitioners navigate uncertain and unique situations through a kind of artistry."
+  },
+  {
+    "title": "Slack",
+    "author": "Tom DeMarco",
+    "description": "An argument for maintaining organizational slack for innovation and resilience. The book shows how the pursuit of efficiency can harm organizational effectiveness, and why some slack is necessary for learning and adaptation."
+  },
+  {
+    "title": "The Second Mountain",
+    "author": "David Brooks",
+    "description": "An exploration of what makes a life meaningful and fulfilling. The book contrasts the first mountain of career success with the second mountain of contribution to others, examining how to build a life of deep commitment and purpose."
+  }
+]
