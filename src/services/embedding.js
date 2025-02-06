@@ -23,6 +23,7 @@ class EmbeddingService {
     }
 
     try {
+      console.log(`Note: Calling OpenAI API to generate embedding for text beginning with: ${text.substring(0,30)}…`);
       const response = await this.openai.embeddings.create({
         model: "text-embedding-3-small",
         input: text,

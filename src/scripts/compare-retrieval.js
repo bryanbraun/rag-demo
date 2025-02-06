@@ -47,7 +47,6 @@ async function compareApproaches(query) {
   const initMonitor = new PerformanceMonitor();
   
   const sparseRetrieval = new SparseRetrieval(books);
-  const embeddingService = new EmbeddingService(process.env.OPENAI_API_KEY);
   const denseRetrieval = new DenseRetrieval();
   
   const initMetrics = initMonitor.getMetrics();
@@ -67,17 +66,29 @@ async function compareApproaches(query) {
   console.log(`Time: ${sparseMetrics.timeMs}ms`);
   console.log(`Memory: ${sparseMetrics.memoryMB}MB`);
 
-  // Test dense retrieval
-  console.log('\nDense Retrieval Results:');
-  const denseMonitor = new PerformanceMonitor();
-  const denseResults = await denseRetrieval.search(query);
-  const denseMetrics = denseMonitor.getMetrics();
+  // Test dense retrieval 1
+  console.log('\nDense Retrieval Results (general):');
+  const denseMonitor1 = new PerformanceMonitor();
+  const denseResults1 = await denseRetrieval.search(query);
+  const denseMetrics1 = denseMonitor1.getMetrics();
   
-  denseResults.forEach((result, i) => {
+  denseResults1.forEach((result, i) => {
     console.log(`${i + 1}. ${result.title} (Score: ${result.similarity.toFixed(3)})`);
   });
-  console.log(`Time: ${denseMetrics.timeMs}ms`);
-  console.log(`Memory: ${denseMetrics.memoryMB}MB`);
+  console.log(`Time: ${denseMetrics1.timeMs}ms`);
+  console.log(`Memory: ${denseMetrics1.memoryMB}MB`);
+
+  // Test dense retrieval 12
+  console.log('\nDense Retrieval Results (personal):');
+  const denseMonitor2 = new PerformanceMonitor();
+  const denseResults2 = await denseRetrieval.search(query, { type: 'personal' });
+  const denseMetrics2 = denseMonitor2.getMetrics();
+  
+  denseResults2.forEach((result, i) => {
+    console.log(`${i + 1}. ${result.title} (Score: ${result.similarity.toFixed(3)})`);
+  });
+  console.log(`Time: ${denseMetrics2.timeMs}ms`);
+  console.log(`Memory: ${denseMetrics2.memoryMB}MB`);
 }
 
 // Command-line interface

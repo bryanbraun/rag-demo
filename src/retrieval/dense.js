@@ -18,7 +18,7 @@ const { cosineSimilarity } = require('../utils/vector');
  */
 class DenseRetrieval {
   constructor() {
-    this.embeddingService = new EmbeddingService();
+    this.embeddingService = new EmbeddingService(process.env.OPENAI_API_KEY);
     this.books = null;
     this.initialized = false;
   }
@@ -48,30 +48,6 @@ class DenseRetrieval {
   }
 
   /**
-   * Ensures a book has necessary embeddings
-   * @param {Book} book - Book to process
-   * @returns {Promise<void>}
-   * @private
-   */
-  async ensureBookEmbeddings(book) {
-    if (!book.embeddings) {
-      book.embeddings = {};
-    }
-
-    // Generate general description embedding if needed
-    if (!book.embeddings.general && book.descriptions.general) {
-      const text = this.preprocessText(book.descriptions.general);
-      book.embeddings.general = await this.embeddingService.generateEmbedding(text);
-    }
-
-    // Generate personal review embedding if needed
-    if (!book.embeddings.personal && book.descriptions.personal_review?.content) {
-      const text = this.preprocessText(book.descriptions.personal_review.content);
-      book.embeddings.personal = await this.embeddingService.generateEmbedding(text);
-    }
-  }
-
-  /**
    * Searches for books using dense retrieval with cached embeddings
    * @param {string} query - Search query
    * @param {Object} options - Search options
@@ -87,25 +63,32 @@ class DenseRetrieval {
     // Only generate embedding for the search query
     const queryEmbedding = await this.embeddingService.generateEmbedding(query);
 
-    // Calculate similarities using cached book embeddings
+    // Calculate similarities using cached book embeddings.
     const results = this.books
-      .map(book => {
-        const bookEmbedding = book.embeddings?.[type];
-        if (!bookEmbedding) return null;
+      .map(async book => {
+        const content = type === 'general' ? book.descriptions.general : book.descriptions.personal_review?.content;
+        const cachedBookEmbedding = book.embeddings?.[type];
+
+        if (!content && !cachedBookEmbedding) {
+          return null; // We don't have enough data to compare this book.
+        }
+
+        // Fallback to generating an embedding for the book on the fly, if necessary.
+        const bookEmbedding = cachedBookEmbedding || await this.embeddingService.generateEmbedding(content);
 
         return {
           id: book.id,
           title: book.title,
           author: book.author,
-          description: book.descriptions[type === 'general' ? 'general' : 'personal_review']?.content,
+          description: content,
           similarity: cosineSimilarity(queryEmbedding, bookEmbedding)
         };
-      })
+      });
+    
+    return (await Promise.all(results))
       .filter(result => result !== null)
       .sort((a, b) => b.similarity - a.similarity)
       .slice(0, limit);
-
-    return results;
   }
 }
 
