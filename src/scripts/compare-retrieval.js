@@ -31,7 +31,6 @@
 
 const SparseRetrieval = require('../retrieval/sparse');
 const DenseRetrieval = require('../retrieval/dense');
-const EmbeddingService = require('../services/embedding');
 const PerformanceMonitor = require('../utils/performance');
 
 /**
@@ -61,7 +60,7 @@ async function compareApproaches(query) {
   const sparseMetrics = sparseMonitor.getMetrics();
   
   sparseResults.forEach((result, i) => {
-    console.log(`${i + 1}. ${result.book.title} (Score: ${result.score.toFixed(3)})`);
+    console.log(`${i + 1}. ${result.book.title} (Score: ${result.relevance.toFixed(3)})`);
   });
   console.log(`Time: ${sparseMetrics.timeMs}ms`);
   console.log(`Memory: ${sparseMetrics.memoryMB}MB`);
@@ -73,22 +72,24 @@ async function compareApproaches(query) {
   const denseMetrics1 = denseMonitor1.getMetrics();
   
   denseResults1.forEach((result, i) => {
-    console.log(`${i + 1}. ${result.title} (Score: ${result.similarity.toFixed(3)})`);
+    console.log(`${i + 1}. ${result.book.title} (Score: ${result.relevance.toFixed(3)})`);
   });
   console.log(`Time: ${denseMetrics1.timeMs}ms`);
   console.log(`Memory: ${denseMetrics1.memoryMB}MB`);
 
-  // Test dense retrieval 12
+  // Test dense retrieval 2
   console.log('\nDense Retrieval Results (personal):');
   const denseMonitor2 = new PerformanceMonitor();
   const denseResults2 = await denseRetrieval.search(query, { type: 'personal' });
   const denseMetrics2 = denseMonitor2.getMetrics();
   
   denseResults2.forEach((result, i) => {
-    console.log(`${i + 1}. ${result.title} (Score: ${result.similarity.toFixed(3)})`);
+    console.log(`${i + 1}. ${result.book.title} (Score: ${result.relevance.toFixed(3)})`);
   });
   console.log(`Time: ${denseMetrics2.timeMs}ms`);
   console.log(`Memory: ${denseMetrics2.memoryMB}MB`);
+
+  // TODO: Should I do a retrieval that uses both general and personal reviews?
 }
 
 // Command-line interface

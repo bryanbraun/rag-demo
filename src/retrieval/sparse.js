@@ -66,15 +66,14 @@ class SparseRetrieval {
         const book = this.books[idx];
         results.push({
           book,
-          score: score / (1 + score),  // Normalize to 0-1 range
-          matchedOn: 'description'  // Could be enhanced to show where match occurred
+          relevance: score / (1 + score),  // Normalize to 0-1 range
         });
       }
     });
 
     // Sort by score and limit results
     return results
-      .sort((a, b) => b.score - a.score)
+      .sort((a, b) => b.relevance - a.relevance)
       .slice(0, limit);
   }
 }

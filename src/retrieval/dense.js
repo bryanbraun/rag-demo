@@ -76,18 +76,21 @@ class DenseRetrieval {
         // Fallback to generating an embedding for the book on the fly, if necessary.
         const bookEmbedding = cachedBookEmbedding || await this.embeddingService.generateEmbedding(content);
 
+        // TODO NEXT: Update the format of this result to match the SparseRetrieval implementation and ContextBuilder expectations.
         return {
-          id: book.id,
-          title: book.title,
-          author: book.author,
-          description: content,
-          similarity: cosineSimilarity(queryEmbedding, bookEmbedding)
+          book: {
+            id: book.id,
+            title: book.title,
+            author: book.author,
+            descriptions: book.descriptions
+          },
+          relevance: cosineSimilarity(queryEmbedding, bookEmbedding)
         };
       });
     
     return (await Promise.all(results))
       .filter(result => result !== null)
-      .sort((a, b) => b.similarity - a.similarity)
+      .sort((a, b) => b.relevance - a.relevance)
       .slice(0, limit);
   }
 }
